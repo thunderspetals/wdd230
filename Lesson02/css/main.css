@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+header, footer {
+    padding: 8px;
+    background-color: #3a2354;
+    border: 2px solid #3a2354;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px #888888;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+#grid {
+    border: 2px solid #443259;
+    border-radius: 15px;
+    display: grid;
+    background-color: #f5d6dcf0;
+    font-family: 'Dancing Script', cursive;
+    word-wrap: normal;
+    column-gap: 50px;
+    row-gap: none;
+}
+#vh {
+    float:left;
+    max-width: 25%;
+    height: auto;
+} 
+#rot {
+    float: center;
+    max-width: 25%;
+    height: auto;
+}
+#proxi{
+    float: right;
+    max-width: 25%;
+    height: auto;
+}
+image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+h3{
+    margin: 0;
+    padding: 10px;
+    background-color: #443259;
+    color: white;
+}
+footer {
+    background-color: none;
+    text-align: center;
+}

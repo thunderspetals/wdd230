@@ -1,33 +1,35 @@
 /*This stylesheet is for the Assignment Portal*/
 body {
     max-width: 500px;
-    margin: auto;
+    margin: 1.0em;
 }
 header {
-    display: flex;
-    padding: 15px;
+    display: grid;
+    padding: 8px;
     background-color: #da9bfa;
     border: 2px solid #da9bfa;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 10px 30px #888888;
 }
+h1 {
+    font-size: 20px;
+}
 #selfPortrait {
+    box-align: center;
     padding: 20px;
-    float: left;
     width: 120px;
     height: auto;
 }
 #name {
     padding: 20px;
-    float: right;
-    line-height: 30px;
+    line-height: 10px;
 }
 footer {
     display: grid;
-    padding: 15px;
+    padding: 8px;
     background-color: #da9bfa;
     border: 2px solid #da9bfa;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     box-shadow: 5px 10px 30px #888888;
 }
