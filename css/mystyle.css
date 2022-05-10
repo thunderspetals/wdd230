@@ -1,7 +1,7 @@
 /*This stylesheet is for the Assignment Portal*/
 body {
-    max-width: 500px;
-    margin: 1.0em;
+    margin: auto;
+    max-width: 1000px;
 }
 header {
     display: grid;
