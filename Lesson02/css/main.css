@@ -1,6 +1,7 @@
-* {
-    box-sizing: border-box;
-  }
+body{
+    margin: auto;
+    max-width: 1000px;
+}
 header, footer {
     padding: 8px;
     background-color: #3a2354;
